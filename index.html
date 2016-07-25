@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="dynServices">
+    <head>
+        <title>Dynamic Service Names</title>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-controller="BaseController">
+         <cust-select type="bool" model-obj="boolVal"></cust-select> 
+         <cust-select type="names" model-obj="name"></cust-select>
+         <cust-select type="countries" model-obj="countries"></cust-select>
+         {{userData | json}}
+    </body>
+</html>

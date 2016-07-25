@@ -1,0 +1,32 @@
+{
+  "name": "angular-inputs",
+  "description": "Angular reusable directives",
+  "main": "index.js",
+  "authors": [
+    "Vijayasingam Thanasekaran"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "Directives",
+    "Reusable"
+  ],
+  "homepage": "https://github.com/Vijayasingam/angular-inputs",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.9",
+    "jquery": "^2.2.0",
+    "angular-ui": "^0.4.0",
+    "bootstrap" : "^3.3"
+  }
+}
